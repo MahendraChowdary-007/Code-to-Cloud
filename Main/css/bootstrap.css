@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Theme</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #FF6B35;
+      --secondary: #8B4513;
+      --accent: #4A90E2;
+      --success: #28A745;
+      --warning: #FFC107;
+      --danger: #DC3545;
+      --surface: #F8F9FA;
+      --text: #2C3E50;
+    }
+    body {
+      font-family: 'Source Sans Pro', sans-serif;
+      color: var(--text);
+      background: #fff;
+    }
+    h1,h2,h3,h4,h5,h6 { font-family: 'Inter', sans-serif; font-weight:600; }
+    code,pre { font-family:'Fira Code', monospace; }
+
+    /* Buttons */
+    .btn-primary { background:var(--primary); border:none; }
+    .btn-primary:hover { background:#E55A2B; }
+    .btn-secondary { background:var(--secondary); border:none; }
+    .btn-secondary:hover { background:#7A3C11; }
+    .btn-accent { background:var(--accent); border:none; }
+    .btn-accent:hover { background:#2A66AE; }
+
+    /* Card */
+    .card-custom {
+      background:var(--surface);
+      border:1px solid #eee;
+      border-radius:12px;
+      padding:1.5rem;
+      box-shadow:0 2px 6px rgba(0,0,0,.1);
+      transition:.3s;
+    }
+    .card-custom:hover { box-shadow:0 4px 12px rgba(0,0,0,.15); }
+
+    /* Input */
+    .input-field {
+      border:1px solid #ddd;
+      border-radius:8px;
+      padding:.75rem 1rem;
+      width:100%;
+    }
+    .input-field:focus {
+      border-color:var(--primary);
+      outline:none;
+      box-shadow:0 0 0 .2rem rgba(255,107,53,.25);
+    }
+
+    /* Utilities */
+    .text-gradient {
+      background:linear-gradient(135deg,var(--primary),var(--accent));
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+    }
+    .fade-in { animation:fadeIn .3s ease-out; }
+    @keyframes fadeIn {
+      from { opacity:0; transform:translateY(10px);}
+      to { opacity:1; transform:translateY(0);}
+    }
+  </style>
+</head>
+<body class="p-4">
+
+  <h1 class="text-gradient">Bootstrap Themed UI</h1>
+  
+  <div class="mb-3">
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-secondary">Secondary</button>
+    <button class="btn btn-accent">Accent</button>
+  </div>
+
+  <div class="card-custom fade-in mb-3">
+    <h5>Card Example</h5>
+    <p>This card uses custom theme colors & hover effect.</p>
+  </div>
+
+  <input type="text" class="input-field" placeholder="Custom Input Field">
+
+</body>
+</html>

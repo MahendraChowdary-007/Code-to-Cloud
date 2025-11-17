@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About Us - Code 2 Cloud</title>
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fcode2clo7236back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.8"></script>
+</head>
+<body class="bg-background font-source-sans">
+
+  <!-- Navbar (same style as homepage) -->
+ <!-- Navbar -->
+  <nav class="bg-white shadow-soft sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <!-- Logo -->
+        <div class="flex items-center">
+          <img src="../assets/logo.png" alt="Code 2 Cloud" style="height:4rem;width:9rem;" />
+          <span class="text-xl font-inter font-bold text-text-primary">Code 2 Cloud</span>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="homepage_e_learning_platform.html" class="text-text-secondary hover:text-primary transition-colors">Home</a>
+          <a href="course_catalog_interactive_learning_hub.html" class="text-text-secondary hover:text-primary transition-colors">Courses</a>
+          <a href="learning_dashboard_personalized_progress_hub.html" class="text-text-secondary hover:text-primary transition-colors">Dashboard</a>
+          <a href="resoource.html" class="text-text-secondary hover:text-primary transition-colors">Resources</a>
+          <a href="about.HTML" class="text-primary font-semibold">About us</a>
+        </div>
+
+        <!-- Auth Buttons -->
+        <div class="hidden md:flex items-center space-x-4">
+          <a href="user_authentication_seamless_access_experience.html" class="text-text-secondary hover:text-primary transition-colors">Sign In</a>
+          <a href="user_authentication_seamless_access_experience.html" class="btn-primary">Get Started</a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button class="md:hidden p-2" id="mobile-menu-btn">
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="md:hidden hidden" id="mobile-menu">
+        <div class="px-2 pt-2 pb-3 space-y-1 bg-white border-t">
+          <a href="homepage_e_learning_platform.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Home</a>
+          <a href="course_catalog_interactive_learning_hub.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Courses</a>
+          <a href="learning_dashboard_personalized_progress_hub.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Dashboard</a>
+          <a href="resoource.html" class="block px-3 py-2 text-text-secondary hover:text-primary">Resources</a>
+          <a href="about.HTML" class="block px-3 py-2 text-primary font-semibold">About us</a>
+
+          <div class="border-t pt-3 mt-3">
+            <a href="user_authentication_seamless_access_experience.html" class="block px-3 py-2 text-text-secondary">Sign In</a>
+            <a href="user_authentication_seamless_access_experience.html" class="block px-3 py-2 btn-primary text-center mt-2">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Hero (matches homepage style, smaller) -->
+  <header class="bg-gradient-to-br from-primary-50 to-accent-50 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center gap-8">
+      <div class="lg:w-2/3">
+        <h1 class="text-4xl lg:text-5xl font-inter font-bold text-text-primary mb-4">About Code 2 Cloud</h1>
+        <p class="text-lg text-text-secondary max-w-2xl">We’re on a mission to make tech education practical, accessible and career-focused. We teach web development, programming, data skills and cloud-native workflows using hands-on projects and real-world examples.</p>
+      </div>
+
+      <div class="lg:w-1/3 flex justify-center">
+        <img src="../assets/logo.png" alt="Code 2 Cloud logo" style="height:100px;" />
+      </div>
+    </div>
+  </header>
+
+  <!-- Who we are (two-column) -->
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-3xl font-inter font-bold text-text-primary mb-4">Who We Are</h2>
+        <p class="text-text-secondary mb-4">
+          At <strong>Code 2 Cloud</strong>, we believe learning technology should be engaging, practical, and accessible to everyone.
+          Our platform provides hands-on courses in web development, programming, data science, mobile development, cloud and more.
+          We help learners build real-world skills from day one to prepare for academic success and industry challenges.
+        </p>
+        <p class="text-text-secondary">
+          Our curriculum is project-based and updated regularly to reflect industry trends — from web apps to cloud deployment and DevOps.
+          Whether you're starting out or upskilling for a career change, our guided paths and projects make learning productive and measurable.
+        </p>
+      </div>
+
+      <div class="flex justify-center">
+        <!-- simple illustrative SVG/icon -->
+        <svg width="320" height="260" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="opacity-90">
+          <path d="M3 7a1 1 0 011-1h12a1 1 0 011 1v11a1 1 0 01-1 1H4a1 1 0 01-1-1V7z" stroke="#0f172a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M7 3v4" stroke="#0f172a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M14 11h4M14 15h4" stroke="#0f172a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission & Vision cards (matching homepage card styling) -->
+  <section class="py-12 bg-surface">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="card p-6">
+          <h3 class="text-xl font-semibold text-primary mb-3">Our Mission</h3>
+          <p class="text-text-secondary">To empower learners worldwide with high-quality, practical and affordable tech education that bridges the gap between curiosity and career.</p>
+        </div>
+
+        <div class="card p-6">
+          <h3 class="text-xl font-semibold text-accent mb-3">Our Vision</h3>
+          <p class="text-text-secondary">To be a leading global learning platform for coding and cloud skills, shaping the innovators and problem-solvers of tomorrow.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Meet our team (cards) -->
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-inter font-bold text-text-primary mb-8">Meet Our Team</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Team member 1 -->
+        <div class="card p-6 text-center">
+          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Team member" class="w-24 h-24 rounded-full mx-auto object-cover mb-4" />
+          <h4 class="text-lg font-semibold text-text-primary">Aaryan Sharma</h4>
+          <p class="text-sm text-text-secondary">Founder & CEO</p>
+          <p class="mt-3 text-text-secondary text-sm">Product-led engineering leader focused on developer learning and cloud-native education.</p>
+        </div>
+
+        <!-- Team member 2 -->
+        <div class="card p-6 text-center">
+          <img src="https://images.unsplash.com/photo-1545996124-8a36f18b7fd6?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Team member" class="w-24 h-24 rounded-full mx-auto object-cover mb-4" />
+          <h4 class="text-lg font-semibold text-text-primary">Sarah Mitchell</h4>
+          <p class="text-sm text-text-secondary">Head of Curriculum</p>
+          <p class="mt-3 text-text-secondary text-sm">Leads course design and ensures materials are practical, project-focused and industry-relevant.</p>
+        </div>
+
+        <!-- Team member 3 -->
+        <div class="card p-6 text-center">
+          <img src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Team member" class="w-24 h-24 rounded-full mx-auto object-cover mb-4" />
+          <h4 class="text-lg font-semibold text-text-primary">Michael Lee</h4>
+          <p class="text-sm text-text-secondary">Head of Engineering</p>
+          <p class="mt-3 text-text-secondary text-sm">Builds platform infrastructure and tools to support scalable, hands-on learning experiences.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA (same visual style as homepage CTA) -->
+  <section class="py-16 bg-gradient-to-br from-accent-50 to-primary-50 text-center">
+    <h3 class="text-3xl font-inter font-bold text-text-primary mb-4">Ready to start learning?</h3>
+    <p class="text-text-secondary mb-6">Explore our catalog, try a free lesson, or follow a learning path to build your skills.</p>
+    <a href="course_catalog_interactive_learning_hub.html" class="btn-primary px-6 py-3">Explore Courses</a>
+  </section>
+
+  <!-- Footer (match homepage) -->
+  <footer class="bg-gray-900 text-gray-400 py-10 text-center">
+    <p>&copy; 2025 Code 2 Cloud. All rights reserved.</p>
+  </footer>
+
+  <!-- Mobile menu script (same as homepage) -->
+  <script>
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    if (mobileMenuBtn) {
+      mobileMenuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    }
+  </script>
+</body>
+</html>
